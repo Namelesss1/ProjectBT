@@ -102,6 +102,7 @@ Features that do not exist in the project yet, but may in the future (If possibl
 - Megas, goldens, and star timers will be reduced by a second
 - Snipe Rewards: Landing a snipe with a banana or fib directly on a player will be extra-rewarding. In balloon battle, you earn +2 instead of +1. In Coin Runners, Shine Thief, and Elimination, those dropped coin will be transferred directly to you (as if you shroomed them).
 - Elimination will be a mix of balloon battle and coin runners instead of just coin runners-based.
+- The bigger the room, the more players are eliminated at once in Elimination
 - Add the timer graphic to local multiplayer
 - Add proper randomization/in-order track logic to track selection both offline, and when voting "random" online.
 - Have offline custom settings save for the next time you boot the game (like regular existing settings do)
