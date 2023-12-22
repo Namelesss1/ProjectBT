@@ -15,7 +15,7 @@ An MKWii Battle improvement mod. Adds new features, changes, and fixes to Mario 
   - _In Balloon Battle:_ You can +5 points for popping someone's last balloon. But you lose ALL points when you lose your own last balloon.
   - _In Coin Runners:_ Players drop ALL coins when hit in any way, no matter how many coins they had. If a player is hit with a shroom or a star, all of their coins will be stolen and given to the other player!
   - _In Shine Thief:_ When you lose the shine, your time left with shine will be reset back to the full 30 seconds. This means that to gaurentee a win, a player must hold the shine for 30 seconds straight without losing it.
-  - _Elimination:_ Same as in Coin Runners.
+  - _Elimination:_ Same as in Coin Runners, and there is no grace period. Players will begin to be eliminated right after the first 20 seconds
 
 - **New Items**
   - _Booper_: A mix of a boo and a blooper ("Boo-per). Does the same thing as a blooper, but also steals things from the highest-scoring player like an automatic-mushroom. In balloon battle, it steals a balloon from highest-scorer and you gain a point. In Coin Runners & Elimination, it steals coins from highest-scorer and gives them to you. In Shine Thief, it steals the shine from whoever currently holds the shine.
