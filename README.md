@@ -4,7 +4,8 @@ An MKWii Battle improvement mod. Adds new features, changes, and fixes to Mario 
 ## New Features
 
 - **Two new battle gamemodes** alongside Balloon Battle & Coin Runners
-  - _Shine Thief:_ Very similar to Shine Thief from Mario Kart 8 Deluxe. Everyone battles for the Shine Sprite (which is actually a single coin). To win, a player must hold on to the shine for at least 30 seconds. Points are based on how many seconds a player has held on to the shine for (e.g. 10 seconds held = 10 points)
+  - _Shine Thief:_ Very similar to Shine Thief from Mario Kart 8 Deluxe. Everyone battles for the Shine Sprite (which is actually a single coin). To win, a player must hold on to the shine for at least 30 seconds. Points are based on how many seconds a player has held on to the shine for (e.g. 10 seconds held = 10 points). When losing the shine and picking it up again, the timer for players will pick up where it last left off. If a player loses the shine with under 10 seconds left, they will need to count down from 10 seconds again the next time they pick it up.
+    
   - _Elimination:_ A battle-royale style gamemode where players are eliminated. There is a grace period where players will collect as many points as they can. Once the grace period is over, every 15 seconds the least-scoring players will be eliminated until there is only one (or no) players left standing. Placement is based on order of ellimination.
 
 - **Free-For-All (FFA) mode:** Battle without teams! You can hit and score off of whoever you want, its everyone for themselves. How well you place depends only on how well you do individually.
