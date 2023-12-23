@@ -24,4 +24,5 @@ Use Wiimm's ISO tools to extract a legally-obtained iso copy of the game using t
 9. Patch main.dol to support Wiimmfi access: `wstrt patch --wiimmfi main.dol`
 10. Patch main.dol for the custom online region: `wstrt patch --region=700 main.dol`
 11. Patch staticR.rel for the custom online region: `wstrt patch --region=700 StaticR.rel`
-12. Copy the modified extracted files back into an ISO using command `wit copy [extracted iso directory] [desired ISO name].iso`
+12. Copy any modified files from this repository (such as Race.szs, BMG files, etc.) into the game's extracted files
+13. Copy the extracted files back into an ISO using command `wit copy [extracted iso directory] [desired ISO name].iso`
