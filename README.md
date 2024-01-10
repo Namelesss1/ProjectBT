@@ -1,6 +1,8 @@
 # ProjectBT
 An MKWii Battle improvement mod. Adds new features, changes, and fixes to Mario Kart Wii's Battle mode. There are many mods out there for VS but very few that develop the battle mode of the game, and most players play VS mode over battle leaving a very small community of battlers left. This mod aims to improve battle mode to attract more players and create a bigger and better community. This adds many features that long-time battlers have long been wanting.
 
+This repository is a re-write of an older, outdated version of the project: https://github.com/Namelesss1/Mkwii-Battle-Mod
+
 ## New Features
 
 - **Two new battle gamemodes** alongside Balloon Battle & Coin Runners
