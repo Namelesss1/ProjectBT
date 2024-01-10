@@ -3,6 +3,8 @@ An MKWii Battle improvement mod. Adds new features, changes, and fixes to Mario 
 
 This repository is a re-write of an older, outdated version of the project: https://github.com/Namelesss1/Mkwii-Battle-Mod
 
+**Note that the source code of this project will be added to this repository once the mod is publicly released**. For now, only information is available here.
+
 ## New Features
 
 - **Two new battle gamemodes** alongside Balloon Battle & Coin Runners
