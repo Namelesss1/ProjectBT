@@ -8,20 +8,20 @@ This repository is a re-write of an older, outdated version of the project: http
 - **Two new battle gamemodes** alongside Balloon Battle & Coin Runners
   - _Shine Thief:_ Very similar to Shine Thief from Mario Kart 8 Deluxe. Everyone battles for the Shine Sprite (which is actually a single coin). To win, a player must hold on to the shine for at least 30 seconds. Points are based on how many seconds a player has held on to the shine for (e.g. 10 seconds held = 10 points). When losing the shine and picking it up again, the timer for players will pick up where it last left off. If a player loses the shine with under 10 seconds left, they will need to count down from 10 seconds again the next time they pick it up.
     
-  - _Elimination:_ A battle-royale style gamemode where players are eliminated. There is a grace period where players will collect as many points as they can. Once the grace period is over, every 15 seconds the least-scoring players will be eliminated until there is only one (or no) players left standing. Placement is based on order of ellimination.
+  - _Elimination:_ A battle-royale style gamemode where players are eliminated. There is a grace period where players will collect as many points as they can. Once the grace period is over, every 15 seconds the least-scoring players will be eliminated until there is only one (or no) players left standing. Placement is based on order of elimination.
 
 - **Free-For-All (FFA) mode:** Battle without teams! You can hit and score off of whoever you want, its everyone for themselves. How well you place depends only on how well you do individually.
 
 - **Custom Battle Tracks**: Instead of just 10 battle stages, you can choose from among 37 different battle stages including the original battle stages, custom tracks, and retro tracks.
 
 - **All or Nothing mode**: This optional way of playing battles is very intense. You can win it all, or lose it all. A rewarding yet punishing battle option which behaves differently for each gamemode:
-  - _In Balloon Battle:_ You can +5 points for popping someone's last balloon. But you lose ALL points when you lose your own last balloon.
+  - _In Balloon Battle:_ You gain +5 points for popping someone's last balloon. But you lose ALL points when you lose your own last balloon.
   - _In Coin Runners:_ Players drop ALL coins when hit in any way, no matter how many coins they had. If a player is hit with a shroom or a star, all of their coins will be stolen and given to the other player!
   - _In Shine Thief:_ When you lose the shine, your time left with shine will be reset back to the full 30 seconds. This means that to gaurentee a win, a player must hold the shine for 30 seconds straight without losing it.
   - _Elimination:_ Same as in Coin Runners, and there is no grace period. Players will begin to be eliminated right after the first 20 seconds
 
 - **New Items**
-  - _Booper_: A mix of a boo and a blooper ("Boo-per). Does the same thing as a blooper, but also steals things from the highest-scoring player like an automatic-mushroom. In balloon battle, it steals a balloon from highest-scorer and you gain a point. In Coin Runners & Elimination, it steals coins from highest-scorer and gives them to you. In Shine Thief, it steals the shine from whoever currently holds the shine.
+  - _Booper_: A mix of a boo and a blooper ("Boo-per"). Does the same thing as a blooper, but also steals things from the highest-scoring player like an automatic-mushroom. In balloon battle, it steals a balloon from highest-scorer and you gain a point. In Coin Runners & Elimination, it steals coins from highest-scorer and gives them to you. In Shine Thief, it steals the shine from whoever currently holds the shine. It is not effective when no player has a shine, so make sure to hold on to it!
   - _Triple Bombs_: 3 bob-ombs that rotate around you. Replaces shocks
   - _Triple Fibs_: 3 fibs that rotate around you. Replaces Bullet Bill
 
@@ -44,7 +44,7 @@ This repository is a re-write of an older, outdated version of the project: http
 
 - **Coin Runners**:
   - Regardless of the amount of players, the same amount of coins will always spawn. This means you can still have 50+ coins even in an online 1v1.
-  - The minial coin loss has increased from 3 to 4.
+  - The minimal coin loss has increased from 3 to 4.
   - Players steal 5 coins instead of 3 when using shrooms or stars
   - Players lose 40% of coins when hit in general instead of 50%.
 
@@ -135,9 +135,12 @@ Features that do not exist in the project yet, but may in the future (If possibl
 - Picking "random" or "in-order" battle tracks offline only choose from the original 10 battle track slots.
 - Custom froom settings won't apply if someone is spamming messages over and over again
 - Guests are not properly accounted-for in predictable teams froom setting
+- The purple line graphic below cup selection on screen 0x6e does not appear nor display anything
+- The purple line graphic offline always displays Coin Runners even in Shine Thief and Elimination.
 
 ## Credits
-Anyone that has contibuted to this project in some way
+Anyone that has contibuted to this project in some way.
+Apoligies if I missed someone, please let me know and will gladly add to the lists.
 
 # Code Credits
 Credit for people that have directly helped or made codes that were used or helpful in development of this project.
@@ -152,13 +155,12 @@ Credit for people that have directly helped or made codes that were used or help
 - Ro: Start with X balloons, let me know about balloon positioning fix
 - Dea: Balloon Positioning fix
 - Joshua MK: Custom Laps Mini
-- Vega: Stacked Teams (Addresses used for predictable teams feature), amazing PowerPC tips and tutorials 
+- Vega: Stacked Teams Code, Amazing PowerPC tips, tutorials and guides
 - salmon01: Float to integer conversion
 - _tZ: Unlock everything without save
-- More possible. Apoligies if I missed someone, please let me know and will gladly add to the list.
 
 # Testers
-People who have helped me test and play this project since the beginning (2019) and before its public release (2023). 
+People who have helped me test and play this project since the beginning (2019) and before its public release (Possibly 2024). 
 
 - Isa9998
 - Becca/Scarlet
@@ -172,9 +174,6 @@ People who have helped me test and play this project since the beginning (2019) 
 - Karma
 - Tony
 - MaxMK
-
-# Special Thanks
-People who've contributed to many ideas, support, have helped play and test it a lot.
 
 ## Code Usage
 Feel free to use any of the code here for your own projects or codes. Just give me some credit, I would appreciate it for the work gone into it so far.
